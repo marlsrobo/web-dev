@@ -1,0 +1,40 @@
+.wd-black-background {
+    background-color: black;
+}
+
+.wd-border-color {
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-left-margin {
+    margin-left: 16px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-search-bar {
+    color: white;
+    background-color: rgb(47, 51, 54);
+    width: 90%;
+    height: 30px;
+    padding-left: 20px;
+    border-width: 0;
+}
+
+.wd-gear {
+    height: 20px;
+    margin-left: 12px;
+    position: relative;
+    top: 25%;
+}
+
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-top-section {
+    height: 30px;
+}
