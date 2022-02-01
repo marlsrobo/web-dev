@@ -106,4 +106,5 @@
     width: 100px;
     border-radius: 10px;
     margin-right: 16px;
+    object-fit: cover;
 }
