@@ -2,8 +2,10 @@
     background-color: black;
 }
 
-.wd-border-color {
+.wd-border-basic {
     border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
 }
 
 .wd-left-margin {
@@ -21,6 +23,7 @@
     height: 30px;
     padding-left: 20px;
     border-width: 0;
+    font-size: 15px;
 }
 
 .wd-gear {
@@ -42,4 +45,50 @@
 .wd-topics-row {
     color: rgb(110, 118, 125);
     font-size: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wd-padding-all-around {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-active-link {
+    color: rgb(29, 161, 242);
+    border-bottom-style: solid;
+    border-color: rgb(29, 161, 242);
+}
+
+.wd-post-section {
+    width: 96%;
+    height: 100px;
+    border-style: solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.wd-num-tweets-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: normal;
+
+}
+
+.wd-post-title {
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.wd-no-top-border {
+    border-top-style: none;
 }
