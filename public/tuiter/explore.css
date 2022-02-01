@@ -89,6 +89,21 @@
     font-weight: bold;
 }
 
+.wd-post-author {
+    color: white;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
 .wd-no-top-border {
     border-top-style: none;
+}
+
+.wd-post-image {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 16px;
 }
