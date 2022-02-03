@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.wd-helvetica-font {
+    font-family: Helvetica;
+}
+
 .wd-border-basic {
     border-color: rgb(47, 51, 54);
     border-style: solid;
@@ -11,14 +15,12 @@
 .wd-title {
     color: white;
     font-size: 20px;
-    font-family: Helvetica;
     font-weight: bold;
 }
 
 .wd-gray-text {
     color: rgb(110, 118, 125);
     font-size: 13px;
-    font-family: Helvetica;
     font-weight: normal;
 }
 
@@ -40,39 +42,70 @@
     width: 48px;
     object-fit: cover;
     margin-top: 12px;
-    float: left;
 }
 
 .wd-author-text {
     margin-left: 12px;
     margin-top: 12px;
-    float: left;
     color: white;
     font-size: 15px;
-    font-family: Helvetica;
     font-weight: bold;
     padding-right: 2px;
+    margin-bottom: 30px;
 }
 
 .wd-post-text {
     color: white;
     font-size: 15px;
     margin-left: 12px;
-    max-width: 506px;
+    width: 506px;
     margin-bottom: 12px;
-    font-family: Helvetica;
     position: relative;
     bottom: 26px;
+    clear: both;
 }
 
 .wp-bookmark-image {
     width: 504px;
     height: 264px;
-    margin-left: 12px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    float: none;
 }
 
 .wd-bookmark-div {
     padding-left: 16px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-bookmark-title {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-bookmark-gray-text {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-margin-left-60px {
+    margin-left: 60px;
+}
+
+.wd-12px-padding-all {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-rounded-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-rounded-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
