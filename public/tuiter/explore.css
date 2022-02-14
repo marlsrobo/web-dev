@@ -8,3 +8,9 @@
     font-size: 13px;
     margin-top: 7px;
 }
+
+.right-10px-border-radius {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+}
