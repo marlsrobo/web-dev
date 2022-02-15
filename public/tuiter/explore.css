@@ -14,3 +14,7 @@
     border-bottom-right-radius: 10px;
     border-left: none;
 }
+
+.nav-item {
+    font-size: 14px;
+}

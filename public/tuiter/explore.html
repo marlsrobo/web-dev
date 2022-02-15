@@ -10,64 +10,120 @@
 <body>
 
 <div class="container">
-<div class="row mt-2">
-    <!--Navigation left sidebar-->
-    <div class="col-2">
-        <div class="list-group">
-            <li class="list-group-item"><i class="fab fa-twitter"></i></li>
-            <a href="home.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-home me-1"></i>Home</a>
-            <a href="explore.html"
-               class="list-group-item list-group-item-action active"
-               aria-current="true"><i class="fas fa-hashtag me-1"></i>Explore</a>
-            <a href="notifications.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-bell me-1"></i>Notifications</a>
-            <a href="messages.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-envelope me-1"></i>Messages</a>
-            <a href="bookmarks.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-bookmark me-1"></i>Bookmarks</a>
-            <a href="lists.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-list me-1"></i>Lists</a>
-            <a href="profile.html" class="list-group-item list-group-item-action">
-                <i class="fas fa-user me-1"></i>Profile</a>
-            <a href="more.html" class="list-group-item list-group-item-action">
+    <div class="row mt-2 mb-2">
+        <!--Navigation left sidebar-->
+        <div class="col-2">
+            <div class="list-group">
+                <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+                <a href="home.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-home me-1"></i>Home</a>
+                <a href="explore.html"
+                   class="list-group-item list-group-item-action active"
+                   aria-current="true"><i class="fas fa-hashtag me-1"></i>Explore</a>
+                <a href="notifications.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-bell me-1"></i>Notifications</a>
+                <a href="messages.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-envelope me-1"></i>Messages</a>
+                <a href="bookmarks.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-bookmark me-1"></i>Bookmarks</a>
+                <a href="lists.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-list me-1"></i>Lists</a>
+                <a href="profile.html" class="list-group-item list-group-item-action">
+                    <i class="fas fa-user me-1"></i>Profile</a>
+                <a href="more.html" class="list-group-item list-group-item-action">
                 <span class="fa-stack" style="position: relative; right: 10px;">
                     <i class="fas fa-circle fa-stack-1x"
                        style="font-size: 1.4em"></i>
                     <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"
                        style="font-size: 0.75em"></i>
                 </span>
-                <span style="position: relative; right: 18px;">More</span></a>
-            <button class="btn btn-primary">Tweet</button>
+                    <span style="position: relative; right: 18px;">More</span></a>
+                <button class="btn btn-primary">Tweet</button>
+            </div>
         </div>
-    </div>
-    <!--Middle main content-->
-    <div class="col-6" style="border: dashed; border-color: green">
-        <div class="input-group mb-2">
+        <!--Middle main content-->
+        <div class="col-6">
+            <div class="input-group mb-2">
             <span class="input-group-text"
                   style="background-color: white; border-right: none; border-bottom-left-radius: 20px; border-top-left-radius: 20px">
                 <i class="fas fa-search"></i></span>
-            <input type="text" class="form-control"
-                   style="border-left: none; border-bottom-right-radius: 20px; border-top-right-radius: 20px"
-                   placeholder="Search Twitter">
-            <i class="fas fa-cog"
-               style="padding-top: 5px; padding-left: 10px; font-size: 1.75em; color: #0e6dfd;"></i>
+                <input type="text" class="form-control"
+                       style="border-left: none; border-bottom-right-radius: 20px; border-top-right-radius: 20px; font-size: 14px;"
+                       placeholder="Search Twitter">
+                <i class="fas fa-cog"
+                   style="padding-top: 5px; padding-left: 10px; font-size: 1.75em; color: #0e6dfd;"></i>
+            </div>
+
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item"><a class="nav-link active" href="for-you.html">For you</a></li>
+                <li class="nav-item"><a class="nav-link" href="trending.html">Trending</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                <li class="nav-item"><a class="nav-link" href="sports.html">Sports</a></li>
+                <li class="nav-item"><a class="nav-link" href="entertainment.html">Entertainment</a></li>
+            </ul>
+            <div class="card">
+                <img src="starship.jpeg" class="card-img-top" alt="...">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div>
+                            <div style="float: left; width: 80%; margin-right: 30px;">
+                                <span style="color: rgb(110, 118, 125);">Web Development</span>
+                                </br>
+                                <span style="font-weight: bold;">ReactJS<i class="fas fa-check-circle ps-1"></i></span>
+                                <span style="color: rgb(110, 118, 125);"> - 2h</span></br>
+                                <span style="font-weight: bold;">React.js is a component based front end
+                            library that makes it very easy to build Single Page Applications or SPAs</span>
+                            </div>
+                            <i class="fab fa-react fa-5x"></i>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div>
+                            <div style="float: left; width: 80%; margin-right: 30px;">
+                                <span style="font-weight: bold;">JavaScript<i class="fas fa-check-circle ps-1"></i></span>
+                                <span style="color: rgb(110, 118, 125);"> - 2h</span></br>
+                                <span style="font-weight: bold;">JavaScript is a programming language
+                                that can be run on browsers as well as desktops</span></br>
+                                <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                            </div>
+                            <img style="width: 85px;" src="javascript.png"/>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div>
+                            <div style="float: left; width: 80%; margin-right: 30px;">
+                                <span style="color: rgb(110, 118, 125);">Web Development</span>
+                                </br>
+                                <span style="font-weight: bold;">jQuery</span>
+                                </br>
+                                <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                            </div>
+                            <img style="width: 85px;" src="jquery.png"/>
+                        </div>
+                    </li><li class="list-group-item">
+                    <div>
+                        <div style="float: left; width: 80%; margin-right: 30px;">
+                            <span style="color: rgb(110, 118, 125);">Web Development</span>
+                            </br>
+                            <span style="font-weight: bold;">NodeJS<i class="fas fa-check-circle ps-1"></i></span>
+                            <span style="color: rgb(110, 118, 125);"> - 2h</span>
+                            </br>
+                            <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                        </div>
+                        <img style="width: 85px;" src="nodejs.jpeg"/>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <h3 style="position: relative; top: -475px; z-index: 10; color: white; left: 8px; font-weight: bold">
+                SpaceX's Starship</h3>
+        </div>
+        <!--User recommendations right sidebar-->
+        <div class="col-4" style="border: dashed; border-color: yellow">
+            chi
         </div>
 
-        <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="#">For You</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Entertainment</a></li>
-        </ul>
     </div>
-    <!--User recommendations right sidebar-->
-    <div class="col-4" style="border: dashed; border-color: yellow">
-        chi
-    </div>
-
-</div>
 
 </div>
 
