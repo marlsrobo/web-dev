@@ -44,14 +44,10 @@
         <!--Middle main content-->
         <div class="col-6">
             <div class="input-group mb-2">
-            <span class="input-group-text"
-                  style="background-color: white; border-right: none; border-bottom-left-radius: 20px; border-top-left-radius: 20px">
+            <span id="magnifying-glass" class="input-group-text">
                 <i class="fas fa-search"></i></span>
-                <input type="text" class="form-control"
-                       style="border-left: none; border-bottom-right-radius: 20px; border-top-right-radius: 20px; font-size: 14px;"
-                       placeholder="Search Twitter">
-                <i class="fas fa-cog"
-                   style="padding-top: 5px; padding-left: 10px; font-size: 1.75em; color: #0e6dfd;"></i>
+                <input type="text" id="search-bar" class="form-control" placeholder="Search Twitter">
+                <i id="settings" class="fas fa-cog"></i>
             </div>
 
             <ul class="nav nav-tabs mb-2">
@@ -63,16 +59,16 @@
             </ul>
 
             <div class="card">
-                <img src="starship.jpeg" class="card-img-top" alt="...">
+                <img src="starship.jpeg" class="card-img-top">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <div>
-                            <div style="float: left; width: 80%; margin-right: 30px;">
-                                <span style="color: rgb(110, 118, 125);">Web Development</span>
+                            <div class="tweet-spacing">
+                                <span class="grey-text-color">Web Development</span>
                                 </br>
-                                <span style="font-weight: bold;">ReactJS<i class="fas fa-check-circle ps-1"></i></span>
-                                <span style="color: rgb(110, 118, 125);"> - 2h</span></br>
-                                <span style="font-weight: bold;">React.js is a component based front end
+                                <span class="bold-weight">ReactJS<i class="fas fa-check-circle ps-1"></i></span>
+                                <span class="grey-text-color"> - 2h</span></br>
+                                <span class="bold-weight">React.js is a component based front end
                             library that makes it very easy to build Single Page Applications or SPAs</span>
                             </div>
                             <i class="fab fa-react fa-5x"></i>
@@ -80,36 +76,36 @@
                     </li>
                     <li class="list-group-item">
                         <div>
-                            <div style="float: left; width: 80%; margin-right: 30px;">
-                                <span style="font-weight: bold;">JavaScript<i class="fas fa-check-circle ps-1"></i></span>
-                                <span style="color: rgb(110, 118, 125);"> - 2h</span></br>
-                                <span style="font-weight: bold;">JavaScript is a programming language
+                            <div class="tweet-spacing">
+                                <span class="bold-weight">JavaScript<i class="fas fa-check-circle ps-1"></i></span>
+                                <span class="grey-text-color"> - 2h</span></br>
+                                <span class="bold-weight">JavaScript is a programming language
                                 that can be run on browsers as well as desktops</span></br>
-                                <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                                <span class="grey-text-color">123K Tweets</span></br>
                             </div>
                             <img style="width: 85px;" src="javascript.png"/>
                         </div>
                     </li>
                     <li class="list-group-item">
                         <div>
-                            <div style="float: left; width: 80%; margin-right: 30px;">
-                                <span style="color: rgb(110, 118, 125);">Web Development</span>
+                            <div class="tweet-spacing">
+                                <span class="grey-text-color">Web Development</span>
                                 </br>
-                                <span style="font-weight: bold;">jQuery</span>
+                                <span class="bold-weight">jQuery</span>
                                 </br>
-                                <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                                <span class="grey-text-color">123K Tweets</span></br>
                             </div>
                             <img style="width: 85px;" src="jquery.png"/>
                         </div>
                     </li><li class="list-group-item">
                     <div>
-                        <div style="float: left; width: 80%; margin-right: 30px;">
-                            <span style="color: rgb(110, 118, 125);">Web Development</span>
+                        <div class="tweet-spacing">
+                            <span class="grey-text-color">Web Development</span>
                             </br>
-                            <span style="font-weight: bold;">NodeJS<i class="fas fa-check-circle ps-1"></i></span>
-                            <span style="color: rgb(110, 118, 125);"> - 2h</span>
+                            <span class="bold-weight">NodeJS<i class="fas fa-check-circle ps-1"></i></span>
+                            <span class="grey-text-color"> - 2h</span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">123K Tweets</span></br>
+                            <span class="grey-text-color">123K Tweets</span></br>
                         </div>
                         <img style="width: 85px;" src="nodejs.jpeg"/>
                     </div>
@@ -125,61 +121,61 @@
         <div class="col-4">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <span style="font-weight: bold; font-size: 14px;">Who to follow</span>
+                    <span class="bold-weight">Who to follow</span>
                 </li>
                 <li class="list-group-item">
                     <div>
                         <div style="float: left; width: 60%; margin-right: 30px;">
-                            <img style="width: 40px; float: left; padding-right: 15px; border-radius: 50%;" src="java.svg"/>
-                            <span style="font-weight: bold;">Java<i class="fas fa-check-circle ps-1"></i></span>
+                            <img style="width: 50px; height: 50px; float: left; margin-right: 15px; border-radius: 50%;" src="java.svg"/>
+                            <span class="bold-weight">Java<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">@Java</span></br>
+                            <span class="grey-text-color">@Java</span></br>
                         </div>
-                        <button class="btn btn-primary" style="float: right">Follow</button>
+                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
                 <li class="list-group-item">
                     <div>
                         <div style="float: left; width: 60%; margin-right: 30px;">
-                            <img style="width: 40px; float: left; padding-right: 15px; border-radius: 50%;" src="relativityspace.jpeg"/>
-                            <span style="font-weight: bold;">Relativity Space<i class="fas fa-check-circle ps-1"></i></span>
+                            <img style="width: 50px; height: 50px; float: left; margin-right: 15px; border-radius: 50%;" src="relativityspace.jpeg"/>
+                            <span class="bold-weight">Relativity Space<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">@relativityspace</span></br>
+                            <span class="grey-text-color">@relativityspace</span></br>
                         </div>
-                        <button class="btn btn-primary" style="float: right">Follow</button>
+                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
                 <li class="list-group-item">
                     <div>
                         <div style="float: left; width: 60%; margin-right: 30px;">
-                            <img style="width: 40px; float: left; padding-right: 15px; border-radius: 50%;" src="virgingalactic.png"/>
-                            <span style="font-weight: bold;">Virgin Galactic<i class="fas fa-check-circle ps-1"></i></span>
+                            <img style="width: 50px; height: 50px; float: left; margin-right: 15px; border-radius: 50%;" src="virgingalactic.png"/>
+                            <span class="bold-weight">Virgin Galactic<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">@virgingalactic</span></br>
+                            <span class="grey-text-color">@virgingalactic</span></br>
                         </div>
-                        <button class="btn btn-primary" style="float: right">Follow</button>
+                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
                 <li class="list-group-item">
                     <div>
                         <div style="float: left; width: 60%; margin-right: 30px;">
-                            <img style="width: 40px; float: left; padding-right: 15px; border-radius: 50%;" src="nasa.png"/>
-                            <span style="font-weight: bold;">NASA<i class="fas fa-check-circle ps-1"></i></span>
+                            <img style="width: 50px; height: 50px; float: left; margin-right: 15px; border-radius: 50%;" src="nasa.png"/>
+                            <span class="bold-weight">NASA<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">@NASA</span></br>
+                            <span class="grey-text-color">@NASA</span></br>
                         </div>
-                        <button class="btn btn-primary" style="float: right">Follow</button>
+                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
                 <li class="list-group-item">
                     <div>
                         <div style="float: left; width: 60%; margin-right: 30px;">
-                            <img style="width: 60px; float: left; padding-right: 15px; border-radius: 50%;" src="tesla.jpeg"/>
-                            <span style="font-weight: bold;">Tesla<i class="fas fa-check-circle ps-1"></i></span>
+                            <img style="width: 50px; height: 50px; float: left; margin-right: 15px; border-radius: 50%;" src="tesla.jpeg"/>
+                            <span class="bold-weight">Tesla<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span style="color: rgb(110, 118, 125);">@Tesla</span></br>
+                            <span class="grey-text-color">@Tesla</span></br>
                         </div>
-                        <button class="btn btn-primary" style="float: right">Follow</button>
+                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
             </ul>

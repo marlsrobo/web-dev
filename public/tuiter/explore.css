@@ -9,12 +9,45 @@
     margin-top: 7px;
 }
 
-.right-10px-border-radius {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-left: none;
-}
-
 .nav-item {
     font-size: 14px;
+}
+
+#magnifying-glass {
+    background-color: white;
+    border-right: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px
+}
+
+#search-bar {
+    border-left: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 14px;
+}
+
+#settings {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 1.75em;
+    color: #0e6dfd;
+}
+
+.tweet-spacing {
+    float: left;
+    width: 80%;
+    margin-right: 30px;
+}
+
+.grey-text-color {
+    color: rgb(110, 118, 125);
+}
+
+.bold-weight {
+    font-weight: bold;
+}
+
+.float-right {
+    float: right;
 }
