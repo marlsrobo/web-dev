@@ -12,35 +12,78 @@
 <div class="container">
     <div class="row mt-2 mb-2">
         <!--Navigation left sidebar-->
-        <div class="col-1 col-sm-2 col-md-2 col-lg-1 col-xl-2">
+        <div class="col-1 col-sm-2 col-md-2 col-lg-1 col-xl-2" style="align-items: center;">
             <div class="list-group">
                 <li class="list-group-item"><i class="fab fa-twitter"></i></li>
                 <a href="home.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-home me-1 float-left"></i><span class="d-none d-xl-block">Home</span></a>
-                <a href="explore.html"
-                   class="list-group-item list-group-item-action active"
-                   aria-current="true"><i class="fas fa-hashtag me-1 float-left"></i><span class="d-none d-xl-block">Explore</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Home</div>
+                    </div>
+                </a>
+                <a href="explore.html" class="list-group-item list-group-item-action">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Explore</div>
+                    </div>
+                </a>
                 <a href="notifications.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-bell me-1 float-left"></i><span class="d-none d-xl-block">Notifications</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Notifications</div>
+                    </div>
+                </a>
                 <a href="messages.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-envelope me-1 float-left"></i><span class="d-none d-xl-block">Messages</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Messages</div>
+                    </div>
+                </a>
                 <a href="bookmarks.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-bookmark me-1 float-left"></i><span class="d-none d-xl-block">Bookmarks</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Bookmarks</div>
+                    </div>
+                </a>
                 <a href="lists.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-list me-1 float-left"></i><span class="d-none d-xl-block">Lists</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Lists</div>
+                    </div>
+                </a>
                 <a href="profile.html" class="list-group-item list-group-item-action">
-                    <i class="fas fa-user me-1 float-left"></i><span class="d-none d-xl-block">Profile</span></a>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">Profile</div>
+                    </div>
+                </a>
                 <a href="more.html" class="list-group-item list-group-item-action">
-                <span class="fa-stack float-left me-1" style="position: relative; right: 10px;">
-                    <i class="fas fa-circle fa-stack-1x"
-                       style="font-size: 1.4em"></i>
-                    <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"
-                       style="font-size: 0.75em"></i>
-                </span>
-                    <span style="position: relative; right: 18px;" class="d-none d-xl-block">More</span></a>
+                    <div class="row" style="flex-wrap: nowrap; align-items: center;">
+                        <div class="col-2 fa-stack">
+                            <i class="fas fa-circle fa-stack-1x" style="font-size: 1.3em"></i>
+                            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse" style="font-size: 0.7em"></i>
+                        </div>
+                        <div class="col-10 d-none d-xl-block">More</div>
+                    </div>
+                </a>
                 <button class="btn btn-primary">Tweet</button>
             </div>
         </div>
+
         <!--Middle main content-->
         <div class="col-7 col-sm-10 col-md-10 col-lg-6">
             <div class="input-group mb-2">
@@ -59,9 +102,9 @@
             </ul>
 
             <div class="card">
-                <div>
+                <div class="wd-container">
                     <img src="starship.jpeg" class="card-img-top">
-                    <h2 style="position: relative; bottom: 45px; left: 10px; color: white; font-weight: bold; z-index: 15;">
+                    <h2 style="position: absolute; bottom: 8px; left: 16px; color: white; font-weight: bold; z-index: 15;">
                         SpaceX's Starship</h2>
                 </div>
                 <ul class="list-group list-group-flush">
@@ -101,19 +144,20 @@
                             </div>
                             <img style="width: 85px; float: right;" src="jquery.png"/>
                         </div>
-                    </li><li class="list-group-item">
-                    <div style="align-items: center; display: flex;">
-                        <div class="tweet-spacing">
-                            <span class="grey-text-color">Web Development</span>
-                            </br>
-                            <span class="bold-weight">NodeJS<i class="fas fa-check-circle ps-1"></i></span>
-                            <span class="grey-text-color"> - 2h</span>
-                            </br>
-                            <span class="grey-text-color">123K Tweets</span></br>
+                    </li>
+                    <li class="list-group-item">
+                        <div style="align-items: center; display: flex;">
+                            <div class="tweet-spacing">
+                                <span class="grey-text-color">Web Development</span>
+                                </br>
+                                <span class="bold-weight">NodeJS<i class="fas fa-check-circle ps-1"></i></span>
+                                <span class="grey-text-color"> - 2h</span>
+                                </br>
+                                <span class="grey-text-color">123K Tweets</span></br>
+                            </div>
+                            <img style="width: 85px; float: right;" src="nodejs.jpeg"/>
                         </div>
-                        <img style="width: 85px; float: right;" src="nodejs.jpeg"/>
-                    </div>
-                </li>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -126,62 +170,81 @@
                     <span class="bold-weight">Who to follow</span>
                 </li>
                 <li class="list-group-item">
-                    <div style="align-items: center; display: flex; float: left; margin: 0px; z-index: 10;">
-                        <div style="float: left;">
-                            <img style="float: left; margin-right: 15px; border-radius: 50%;" src="java.svg" width="45" height="45"/>
-                            <span class="bold-weight" style="z-index: 10;">Java<i class="fas fa-check-circle ps-1"></i></span>
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img style="border-radius: 50%;" src="java.svg" width="50" height="50"/>
+                        </div>
+                        <div class="col-7 m-0" style="white-space: nowrap; z-index: 15;">
+                            <span class="bold-weight" style="z-index: 15;">Java<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
-                            <span class="grey-text-color">@java</span></br>
+                            <span class="grey-text-color">@Java</span></br>
                         </div>
-                    </div>
-                    <button class="btn btn-primary float-right">Follow</button>
-                </li>
-                <li class="list-group-item">
-                    <div class="text-nowrap" style="overflow: visible;">
-                        <div style="align-items: center; display: flex; float: left; margin: 0px; z-index: 15;">
-                            <div style="float: left;">
-                                <img style="float: left; margin-right: 15px; border-radius: 50%;" src="relativityspace.jpeg" width="45" height="45"/>
-                                <span class="bold-weight text-nowrap" style="z-index: 15;">Relativity Space<i class="fas fa-check-circle ps-1"></i></span>
-                                </br>
-                                <span class="grey-text-color">@relativityspace</span></br>
-                            </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary float-right">Follow</button>
                         </div>
-                        <button class="btn btn-primary float-right">Follow</button>
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <div style="align-items: center; display: flex; float: left; margin: 0px; z-index: 10;">
-                        <div style="float: left; ">
-                            <img style="float: left; margin-right: 15px; border-radius: 50%;" src="virgingalactic.png" width="45" height="45"/>
-                            <span class="bold-weight" style="z-index: 10;">Virgin Galactic<i class="fas fa-check-circle ps-1"></i></span>
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img style="border-radius: 50%;" src="relativityspace.jpeg" width="50" height="50"/>
+                        </div>
+                        <div class="col-7 m-0" style="white-space: nowrap; z-index: 15;">
+                            <span class="bold-weight" style="z-index: 15;">Relativity Space<i class="fas fa-check-circle ps-1"></i></span>
+                            </br>
+                            <span class="grey-text-color">@relativityspace</span></br>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary float-right">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img style="border-radius: 50%;" src="virgingalactic.png" width="50" height="50"/>
+                        </div>
+                        <div class="col-7 m-0" style="white-space: nowrap; z-index: 15;">
+                            <span class="bold-weight" style="z-index: 15;">Virgin Galactic<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
                             <span class="grey-text-color">@virgingalactic</span></br>
                         </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary float-right">Follow</button>
+                        </div>
                     </div>
-                    <button class="btn btn-primary float-right" style="display: flex;">Follow</button>
                 </li>
                 <li class="list-group-item">
-                    <div style="align-items: center; display: flex; float: left; margin: 0px; z-index: 10;">
-                        <div style="float: left;">
-                            <img style="float: left; margin-right: 15px; border-radius: 50%;" src="nasa.png" width="45" height="45"/>
-                            <span class="bold-weight" style="z-index: 10;">NASA<i class="fas fa-check-circle ps-1"></i></span>
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img style="border-radius: 50%;" src="nasa.png" width="50" height="50"/>
+                        </div>
+                        <div class="col-7 m-0" style="white-space: nowrap; z-index: 15;">
+                            <span class="bold-weight" style="z-index: 15;">NASA<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
                             <span class="grey-text-color">@NASA</span></br>
                         </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary float-right">Follow</button>
+                        </div>
                     </div>
-                    <button class="btn btn-primary float-right">Follow</button>
                 </li>
                 <li class="list-group-item">
-                    <div style="align-items: center; display: flex; float: left; margin: 0px; z-index: 10;">
-                        <div style="float: left;">
-                            <img style="float: left; margin-right: 15px; border-radius: 50%;" src="tesla.jpeg" width="45" height="45"/>
-                            <span class="bold-weight" style="z-index: 10;">Tesla<i class="fas fa-check-circle ps-1"></i></span>
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img style="border-radius: 50%;" src="tesla.jpeg" width="50" height="50"/>
+                        </div>
+                        <div class="col-7 m-0" style="white-space: nowrap; z-index: 15;">
+                            <span class="bold-weight" style="z-index: 15;">Tesla<i class="fas fa-check-circle ps-1"></i></span>
                             </br>
                             <span class="grey-text-color">@Tesla</span></br>
                         </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary float-right">Follow</button>
+                        </div>
                     </div>
-                    <button class="btn btn-primary float-right">Follow</button>
                 </li>
+
             </ul>
         </div>
 

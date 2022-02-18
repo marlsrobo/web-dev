@@ -55,3 +55,9 @@
 .float-left {
     float: left;
 }
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
