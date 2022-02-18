@@ -61,3 +61,26 @@
     text-align: center;
     color: white;
 }
+
+.round-image {
+    border-radius: 50%;
+}
+
+.center-image-text-overlay {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    z-index: 15;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+    z-index: 15;
+}
+
+.align-middle {
+    align-items: center;
+    display: flex;
+}
