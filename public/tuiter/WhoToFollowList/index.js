@@ -3,7 +3,7 @@ import who from "./who.js";
 
 const WhoToFollowList = () => {
     return (`
-        <div class="col-4 d-none d-lg-block">
+        <div class="d-none d-lg-block">
             <ul class="list-group">
                 <li class="list-group-item">
                     <span class="bold-weight">Who to follow</span>
