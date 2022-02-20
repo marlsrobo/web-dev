@@ -1,0 +1,86 @@
+.list-group-item-action {
+    font-size: 13px;
+}
+
+.btn.btn-primary {
+    border-radius: 25px;
+    height: 30px;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.nav-item {
+    font-size: 14px;
+}
+
+#magnifying-glass {
+    background-color: white;
+    border-right: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px
+}
+
+#search-bar {
+    border-left: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 14px;
+}
+
+#settings {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 1.75em;
+    color: #0e6dfd;
+}
+
+.tweet-spacing {
+    float: left;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.grey-text-color {
+    color: rgb(110, 118, 125);
+}
+
+.bold-weight {
+    font-weight: bold;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.round-image {
+    border-radius: 50%;
+}
+
+.center-image-text-overlay {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    z-index: 15;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+    z-index: 15;
+}
+
+.align-middle {
+    align-items: center;
+    display: flex;
+}
