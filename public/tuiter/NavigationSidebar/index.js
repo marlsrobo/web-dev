@@ -60,14 +60,14 @@ const NavigationSidebar = () => {
                 </div>
             </a>
             <a href="more.html" class="list-group-item list-group-item-action">
-                <div class="row" style="flex-wrap: nowrap; align-items: center;">
-                    <div class="col-2 fa-stack ms-0 me-0 pe-0">
-                        <i class="fas fa-circle fa-stack-1x me-0" style="font-size: 1.3em"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse me-0" style="font-size: 0.7em"></i>
-                    </div>
-                    <div class="col-10 d-none d-xl-block ps-0">More</div>
-                </div>
-            </a>
+                                <div class="row" style="flex-wrap: nowrap; align-items: center;">
+                                    <div class="col-2 fa-stack">
+                                        <i class="fas fa-circle fa-stack-1x" style="font-size: 1.3em"></i>
+                                        <i class="fas fa-ellipsis-h fa-stack-1x grey-text-color" style="font-size: 0.7em"></i>
+                                    </div>
+                                    <div class="col-10 d-none d-xl-block">More</div>
+                                </div>
+                            </a>
         </div>
         <div class="d-grid mt-2">
             <a href="tweet.html"
