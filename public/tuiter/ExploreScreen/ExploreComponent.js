@@ -7,7 +7,7 @@ const ExploreComponent = () => {
                 <span id="magnifying-glass" class="input-group-text grey-text-color">
                 <i class="fas fa-search"></i></span>
                 <input type="text" id="search-bar" class="form-control" placeholder="Search Twitter">
-                <i id="settings" class="fas fa-cog"></i>
+                <a href="../explore-settings.html"><i id="settings" class="fas fa-cog"></i></a>
             </div>
 
             <ul class="nav nav-tabs mb-2">
