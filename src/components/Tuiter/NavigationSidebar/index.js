@@ -19,7 +19,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Home</div>
                 </div>
             </a>
-            <a href="explore.html" className="list-group-item list-group-item-action active">
+            <a href="explore.html" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-hashtag"></i>
@@ -27,7 +27,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Explore</div>
                 </div>
             </a>
-            <a href="notifications.html" className="list-group-item list-group-item-action">
+            <a href="notifications.html" className={`list-group-item list-group-item-action ${active === 'notifications' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-bell"></i>
@@ -35,7 +35,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Notifications</div>
                 </div>
             </a>
-            <a href="messages.html" className="list-group-item list-group-item-action">
+            <a href="messages.html" className={`list-group-item list-group-item-action ${active === 'messages' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-envelope"></i>
@@ -43,7 +43,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Messages</div>
                 </div>
             </a>
-            <a href="bookmarks.html" className="list-group-item list-group-item-action">
+            <a href="bookmarks.html" className={`list-group-item list-group-item-action ${active === 'bookmarks' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-bookmark"></i>
@@ -51,7 +51,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Bookmarks</div>
                 </div>
             </a>
-            <a href="lists.html" className="list-group-item list-group-item-action">
+            <a href="lists.html" className={`list-group-item list-group-item-action ${active === 'lists' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-list"></i>
@@ -59,7 +59,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Lists</div>
                 </div>
             </a>
-            <a href="profile.html" className="list-group-item list-group-item-action">
+            <a href="profile.html" className={`list-group-item list-group-item-action ${active === 'profile' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
                         <i className="fas fa-user"></i>
@@ -67,7 +67,7 @@ const NavigationSidebar = (
                     <div className="col-10 d-none d-xl-block">Profile</div>
                 </div>
             </a>
-            <a href="more.html" className="list-group-item list-group-item-action">
+            <a href="more.html" className={`list-group-item list-group-item-action ${active === 'more' ? 'active' : ''}`}>
                                 <div className="row" style={{"flexWrap": "nowrap", "alignItems": "center"}}>
                                     <div className="col-2 fa-stack">
                                         <i className="fas fa-circle fa-stack-1x" style={{"fontSize": "1.3em"}}></i>
