@@ -1,26 +1,26 @@
 [
   {
-    "avatarIcon": "java.svg",
+    "avatarIcon": "https://cdn.vox-cdn.com/thumbor/VoXJ8IaxCj5_U-366JhtUHLkdQ0=/0x0:640x427/1400x1050/filters:focal(0x0:640x427):format(jpeg)/cdn.vox-cdn.com/assets/1087137/java_logo_640.jpg",
     "userName": "Java",
     "handle": "Java"
   },
   {
-    "avatarIcon": "relativityspace.jpeg",
+    "avatarIcon": "data:image/png;base64,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",
     "userName": "Relativity Space",
     "handle": "relativityspace"
   },
   {
-    "avatarIcon": "virgingalactic.png",
+    "avatarIcon": "https://cdn.worldvectorlogo.com/logos/virgin-1.svg",
     "userName": "Virgin Galactic",
     "handle": "virgingalactic"
   },
   {
-    "avatarIcon": "nasa.png",
+    "avatarIcon": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
     "userName": "NASA",
     "handle": "NASA"
   },
   {
-    "avatarIcon": "tesla.jpeg",
+    "avatarIcon": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/931/524/TESLA-LOGO.jpg?ve=1&tl=1",
     "userName": "Tesla",
     "handle": "Tesla"
   }

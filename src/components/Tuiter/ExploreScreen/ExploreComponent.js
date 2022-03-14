@@ -20,7 +20,7 @@ const ExploreComponent = () => {
             </ul>
             <div className="card">
                 <div className="wd-container">
-                    <img src="starship.jpeg" className="card-img-top"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" className="card-img-top"/>
                     <h2 className="center-image-text-overlay">SpaceX's Starship</h2>
                 </div>
                 <PostSummaryList/>
