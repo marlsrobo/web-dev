@@ -21,7 +21,7 @@ const PostSummaryItem = (
                     <span className="grey-text-color"> - {post.time}</span><br/>
                     <span className="bold-weight">{post.title}</span><br/>
                 </div>
-                <img className="float-right" src={post.image} width="85px" style={{"border-radius": "10px"}}/>
+                <img className="float-right" src={post.image} width="85px" style={{"borderRadius": "10px"}}/>
             </div>
         </li>
         </div>
