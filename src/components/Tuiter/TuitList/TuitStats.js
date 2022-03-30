@@ -1,9 +1,15 @@
 import {useDispatch} from "react-redux";
+import {updateTuit} from "../Actions/tuits-actions";
 
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
     const likeTuit = () => {
-        dispatch({type: "like-tuit", tuit});
+        updateTuit(dispatch, {...tuit,
+                              likes: tuit.likes + 1})
+    };
+    const dislikeTuit = () => {
+        updateTuit(dispatch, {...tuit,
+                              dislikes: tuit.dislikes + 1})
     };
 
     return (
@@ -13,16 +19,16 @@ const TuitStats = ({tuit}) => {
                             <a href="#"> <i className="fas fa-retweet" style={{"color": "rgb(110, 118, 125)"}}></i></a>
                             <span className="wd-gray-color wd-icon-padding wd-14px-font">{tuit.stats.retuits}</span>
         <span onClick={likeTuit}>
-        {
-            tuit.liked && <i className="fas fa-heart me-1 wd-14px-font wd-gray-color"
-                             style={{color: '#df255e'}}></i>
-        }
-        {
-            !tuit.liked && <i className="far fa-heart me-1 wd-14px-font wd-gray-color"></i>
-        }
-        {tuit.stats && <span className="wd-gray-color wd-14px-font wd-icon-padding">{tuit.stats.likes}</span>}
-        <a href="#"> <i className="fas fa-upload" style={{"color": "rgb(110, 118, 125)"}}></i></a>
+            <i className="far fa-thumbs-up me-1 wd-14px-font wd-gray-color"></i>
+            <span className="wd-gray-color wd-14px-font wd-icon-padding">{tuit.likes}</span>
         </span>
+        <span onClick={dislikeTuit}>
+            <i className="far fa-thumbs-down me-1 wd-14px-font wd-gray-color"></i>
+            <span className="wd-gray-color wd-14px-font wd-icon-padding">{tuit.dislikes}</span>
+        </span>
+
+        <a href="#"> <i className="fas fa-upload" style={{"color": "rgb(110, 118, 125)"}}></i></a>
+
         </div>
     );
 };

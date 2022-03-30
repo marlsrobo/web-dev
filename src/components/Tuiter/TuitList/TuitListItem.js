@@ -1,17 +1,15 @@
 import React from "react";
 import "./index.css";
 import {useDispatch} from "react-redux";
+import {deleteTuit} from "../Actions/tuits-actions";
 import TuitStats from "./TuitStats";
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
     return(
         <div className="list-group-item">
         <i onClick={() =>
-                deleteTuit(tuit)}
+                deleteTuit(dispatch, tuit)}
                 className="fas fa-window-close fa-2x fa-pull-right"
                 style={{"color": "rgb(110, 118, 125)"}}></i>
             <img className="wd-avatar-image wd-float-left" src={tuit.avatarImg}/>
